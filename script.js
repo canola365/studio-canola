@@ -3,7 +3,13 @@ document.documentElement.classList.add('js');
 
 // Header: sombra ao rolar
 const header = document.querySelector('.site-header');
-const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 8);
+const waFloat = document.querySelector('.wa-float');
+
+const onScroll = () => {
+  header.classList.toggle('scrolled', window.scrollY > 8);
+  if (waFloat) waFloat.classList.toggle('show', window.scrollY > window.innerHeight * 0.7);
+};
+
 onScroll();
 window.addEventListener('scroll', onScroll, { passive: true });
 
