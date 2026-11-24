@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Caricatura ao vivo">
+  <rect width="800" height="1000" fill="#f2ebdd"/>
+  <rect x="26" y="26" width="748" height="948" rx="18" fill="none" stroke="#cbbfa9" stroke-width="3" stroke-dasharray="16 14"/>
+  <circle cx="400" cy="392" r="98" fill="#f5c518" opacity="0.5"/>
+  <path d="M350 380c0-28 22-50 50-50s50 22 50 50-22 50-50 50-50-22-50-50z" fill="none" stroke="#12100e" stroke-width="7" opacity="0.5"/>
+  <circle cx="383" cy="373" r="7" fill="#12100e" opacity="0.55"/>
+  <circle cx="417" cy="373" r="7" fill="#12100e" opacity="0.55"/>
+  <path d="M376 408q24 20 48 0" fill="none" stroke="#12100e" stroke-width="7" stroke-linecap="round" opacity="0.55"/>
+  <text x="400" y="610" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="700" fill="#12100e">Caricatura ao vivo</text>
+  <text x="400" y="658" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="23" fill="#8a8177">foto de evento</text>
+</svg>
