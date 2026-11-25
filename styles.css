@@ -283,6 +283,31 @@ h1 em {
 /* ---------- Sections ---------- */
 .section { padding: clamp(3.5rem, 7vw, 6rem) 0; }
 .section-alt { background: var(--paper-2); }
+.section-deep { background: var(--deep); }
+
+/* ---------- Fotos ao vivo ---------- */
+.live-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.7rem;
+}
+
+.live-grid figure {
+  margin: 0;
+  aspect-ratio: 4 / 3;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--surface);
+}
+
+.live-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.live-grid figure:first-child img { object-position: center 20%; }
 
 .section-head { max-width: 62ch; margin-bottom: clamp(2rem, 4vw, 3rem); }
 
@@ -585,16 +610,33 @@ h2 {
 }
 
 .about-img {
+  position: relative;
   margin: 0;
-  border-radius: 22px;
-  overflow: hidden;
-  border: 1px solid var(--line);
-  background: #fff;
   transform: rotate(1.5deg);
-  box-shadow: 0 24px 50px -30px rgba(18, 16, 14, 0.5);
 }
 
-.about-img img { aspect-ratio: 1 / 1; object-fit: contain; width: 100%; }
+.about-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 22px;
+  border: 1px solid var(--line);
+  box-shadow: 0 24px 50px -30px rgba(0, 0, 0, 0.7);
+}
+
+.about-badge {
+  position: absolute;
+  right: -0.6rem;
+  bottom: -1.6rem;
+  width: 34%;
+  max-width: 150px;
+  border-radius: 18px;
+  border: 4px solid var(--paper-2);
+  background: #fff;
+  box-shadow: 0 16px 32px -18px rgba(0, 0, 0, 0.85);
+  transform: rotate(-7deg);
+}
 
 .about p { color: var(--muted); }
 
@@ -805,6 +847,12 @@ section[id] { scroll-margin-top: 88px; }
   .nav a { padding: 0.85rem 0.6rem; border-radius: 10px; font-size: 1rem; }
   .nav a:hover { background: var(--paper-2); }
   .nav .btn { margin-top: 0.6rem; }
+}
+
+@media (max-width: 700px) {
+  .live-grid { grid-template-columns: repeat(2, 1fr); gap: 0.55rem; }
+  .live-grid figure:last-child { grid-column: span 2; aspect-ratio: 16 / 9; }
+  .live-grid figure:last-child img { object-position: center 32%; }
 }
 
 @media (max-width: 600px) {
