@@ -108,7 +108,7 @@ Hoje as imagens em `assets/` são placeholders com "Sua arte aqui".
 - `caricatura-01` a `05` → eventos reais (casamento, 15 anos, infantil, empresa)
 - `caricatura-06` a `09` → digital, pet, ilustração, mascote
 - `hq-01` a `03` → capas de Descobrindo Botucatu, Fabulando e Urubu Zulu
-- `sobre` → um retrato seu
+- `sobre` → um retrato seu (já preenchido com a sua caricatura)
 
 Comprima em https://squoosh.app antes de subir (~200–400 KB por foto).
 
