@@ -1,11 +1,11 @@
 :root {
-  --ink: #12100e;
-  --paper: #faf6ee;
-  --paper-2: #f2ebdd;
+  --ink: #0f2a44;
+  --paper: #f5f7fa;
+  --paper-2: #e9ecf2;
   --canola: #f5c518;
-  --accent: #d94f2b;
-  --muted: #6b6259;
-  --line: rgba(18, 16, 14, 0.12);
+  --accent: #f5c518;
+  --muted: #5a6473;
+  --line: rgba(15, 42, 68, 0.12);
   --radius: 18px;
   --max: 1120px;
   --font-display: "Bricolage Grotesque", system-ui, -apple-system, sans-serif;
