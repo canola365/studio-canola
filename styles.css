@@ -307,7 +307,7 @@ h1 em {
   object-fit: cover;
 }
 
-.live-grid figure:first-child img { object-position: center 20%; }
+.live-grid figure:first-child img { object-position: center 14%; }
 
 .section-head { max-width: 62ch; margin-bottom: clamp(2rem, 4vw, 3rem); }
 
