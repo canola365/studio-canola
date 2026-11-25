@@ -74,21 +74,21 @@ casamentos · 15 anos · festas infantis · confraternizações · formaturas ·
 ### Página "Caricatura ao vivo"
 
 **Título (SEO):** Caricatura ao vivo para eventos | Studio Canola
-**Descrição (SEO):** Caricatura ao vivo em casamentos, 15 anos, festas infantis e eventos corporativos. 5 a 10 minutos por pessoa, arte entregue na hora.
+**Descrição (SEO):** Caricatura ao vivo em casamentos, 15 anos, festas infantis e eventos corporativos. 3 a 8 minutos por pessoa, arte entregue na hora.
 
 **Como funciona:**
 
-> 1. **Combinamos o evento** — Data, local, número de convidados e formato (papel ou digital). Envio orçamento fechado.
+> 1. **Combinamos o evento** — Data, local e número de convidados. Envio orçamento fechado.
 > 2. **Chego e monto** — Levo prancheta, material e display com o Studio Canola. Só preciso de uma mesa e duas cadeiras.
-> 3. **Cada um leva a sua** — De 5 a 10 minutos por pessoa. Na versão digital, a arte chega na hora pelo WhatsApp.
+> 3. **Cada um leva a sua** — De 3 a 8 minutos por pessoa, em média. A arte é feita em papel, na hora, e vai embora com o convidado.
 
 **Pacotes:**
 
 | Pacote | Duração | Pessoas | A partir de | Inclui |
 |---|---|---|---|---|
 | Essencial | 2h | até 20 | R$ 200 | Material, deslocamento em Botucatu, arte em papel |
-| Completo | 3h | até 30 | R$ 300 | Material, deslocamento em Botucatu, papel + arquivo digital |
-| Evento | 4h | evento completo | R$ 400 | Material, deslocamento na região combinado, papel + arquivo digital |
+| Completo | 3h | até 30 | R$ 300 | Material, deslocamento em Botucatu, arte em papel, colorida e assinada |
+| Evento | 4h | evento completo | R$ 400 | Material, deslocamento na região combinado, arte em papel, colorida e assinada |
 
 > *Valores de referência para eventos em Botucatu. Região e datas de alta temporada sob consulta. Reserva com sinal de 50%.*
 
@@ -166,7 +166,7 @@ Versão legível da mensagem: *"Olá! Vi seu site e quero um orçamento de caric
 ## 4. Bônus — legendas para Instagram
 
 **Legenda 1 (evento):**
-> Caricatura ao vivo é isso: 8 minutos, uma folha e a pessoa levando o próprio rosto embaixo do braço. 🎨
+> Caricatura ao vivo é isso: de 3 a 8 minutos, uma folha e a pessoa levando o próprio rosto embaixo do braço. 🎨
 > Casamentos, 15 anos e confraternizações — agenda aberta para [mês].
 > 📩 Orçamento no link da bio.
 

@@ -231,10 +231,10 @@ h1 em {
   border: 1px solid var(--line);
   box-shadow: 0 30px 60px -30px rgba(18, 16, 14, 0.45);
   transform: rotate(-2deg);
-  background: var(--paper-2);
+  background: #231f20;
 }
 
-.hero-frame img { aspect-ratio: 4 / 5; object-fit: cover; width: 100%; }
+.hero-frame img { aspect-ratio: 5 / 3; object-fit: contain; width: 100%; }
 
 .sticker {
   position: absolute;
@@ -510,6 +510,36 @@ h2 {
 }
 
 .shot:hover img { transform: scale(1.03); }
+
+/* ---------- Marcas e mascotes ---------- */
+.brands {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.9rem;
+}
+
+.brand-card {
+  margin: 0;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.brand-card img {
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  width: 100%;
+  padding: 0.7rem;
+  background: #fff;
+}
+
+.brand-card figcaption {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0 0.8rem 0.8rem;
+  color: var(--ink);
+}
 
 /* ---------- HQs ---------- */
 .hqs {
