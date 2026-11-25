@@ -86,9 +86,9 @@ casamentos · 15 anos · festas infantis · confraternizações · formaturas ·
 
 | Pacote | Duração | Pessoas | A partir de | Inclui |
 |---|---|---|---|---|
-| Essencial | 2h | até 20 | R$ 200 | Material, deslocamento em Botucatu, arte em papel, colorida e assinada |
-| Completo | 3h | até 30 | R$ 300 | Material, deslocamento em Botucatu, arte em papel, colorida e assinada |
-| Evento | 4h | evento completo | R$ 400 | Material, deslocamento na região combinado, arte em papel, colorida e assinada |
+| Essencial | 2h | até 20 | R$ 200 | Material, deslocamento em Botucatu, arte em papel, assinada |
+| Completo | 3h | até 30 | R$ 300 | Material, deslocamento em Botucatu, arte em papel, assinada |
+| Evento | 4h | evento completo | R$ 400 | Material, deslocamento na região combinado, arte em papel, assinada |
 
 > *Valores de referência para eventos em Botucatu. Região e datas de alta temporada sob consulta. Reserva com sinal de 50%.*
 

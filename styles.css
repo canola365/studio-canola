@@ -1,11 +1,13 @@
 :root {
-  --ink: #0f2a44;
-  --paper: #f5f7fa;
-  --paper-2: #e9ecf2;
+  --ink: #eaf1fa;
+  --paper: #0b1a2b;
+  --paper-2: #0e2135;
+  --surface: #122a42;
+  --deep: #061120;
   --canola: #f5c518;
   --accent: #f5c518;
-  --muted: #5a6473;
-  --line: rgba(15, 42, 68, 0.12);
+  --muted: #a2b3c8;
+  --line: rgba(255, 255, 255, 0.13);
   --radius: 18px;
   --max: 1120px;
   --font-display: "Bricolage Grotesque", system-ui, -apple-system, sans-serif;
@@ -40,7 +42,7 @@ a { color: inherit; }
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(250, 246, 238, 0.88);
+  background: rgba(11, 26, 43, 0.88);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid transparent;
   transition: border-color 0.3s, box-shadow 0.3s;
@@ -138,8 +140,8 @@ a { color: inherit; }
 }
 
 .btn:active { transform: scale(0.98); }
-.btn-primary { background: var(--ink); color: var(--paper); }
-.btn-primary:hover { background: #000; }
+.btn-primary { background: var(--canola); color: #0b1a2b; }
+.btn-primary:hover { background: #e0b30f; }
 .btn-ghost { border-color: var(--line); color: var(--ink); }
 .btn-ghost:hover { border-color: var(--ink); }
 .btn-wa { background: #25d366; color: #062e14; }
@@ -190,8 +192,7 @@ h1 {
 
 h1 em {
   font-style: normal;
-  background: linear-gradient(transparent 62%, var(--canola) 62%);
-  padding-right: 0.06em;
+  color: var(--canola);
 }
 
 .lead {
@@ -216,9 +217,9 @@ h1 em {
   position: absolute;
   inset: auto -6% -8% 10%;
   aspect-ratio: 1;
-  background: radial-gradient(circle at 35% 35%, var(--canola), #eab000);
+  background: radial-gradient(circle at 40% 40%, #1d3f63, #0b1a2b 68%);
   border-radius: 50%;
-  opacity: 0.9;
+  opacity: 0.85;
   z-index: 0;
 }
 
@@ -241,8 +242,8 @@ h1 em {
   z-index: 2;
   right: -0.4rem;
   top: 1.2rem;
-  background: var(--ink);
-  color: var(--paper);
+  background: var(--canola);
+  color: #0b1a2b;
   font-family: var(--font-display);
   font-weight: 800;
   font-size: 0.82rem;
@@ -256,8 +257,8 @@ h1 em {
 
 /* ---------- Faixa ---------- */
 .strip {
-  background: var(--ink);
-  color: var(--paper);
+  background: var(--deep);
+  color: var(--ink);
   overflow: hidden;
   padding: 0.7rem 0;
 }
@@ -315,7 +316,7 @@ h2 {
 }
 
 .card {
-  background: #fff;
+  background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   padding: 1.6rem;
@@ -374,8 +375,8 @@ h2 {
   width: 1.7rem;
   height: 1.7rem;
   border-radius: 50%;
-  background: var(--ink);
-  color: var(--canola);
+  background: var(--canola);
+  color: #0b1a2b;
   display: grid;
   place-items: center;
   font-family: var(--font-display);
@@ -401,7 +402,7 @@ h2 {
 
 .pack {
   position: relative;
-  background: #fff;
+  background: var(--surface);
   border: 1.5px solid var(--line);
   border-radius: var(--radius);
   padding: 1.6rem;
@@ -410,7 +411,7 @@ h2 {
 }
 
 .pack.featured {
-  border-color: var(--ink);
+  border-color: var(--canola);
   box-shadow: 0 0 0 3px rgba(245, 197, 24, 0.35);
 }
 
@@ -419,7 +420,7 @@ h2 {
   top: -0.7rem;
   left: 1.2rem;
   background: var(--canola);
-  color: var(--ink);
+  color: #0b1a2b;
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.05em;
@@ -538,7 +539,7 @@ h2 {
   font-size: 0.8rem;
   font-weight: 600;
   padding: 0 0.8rem 0.8rem;
-  color: var(--ink);
+  color: #0b1a2b;
 }
 
 /* ---------- HQs ---------- */
@@ -549,7 +550,7 @@ h2 {
 }
 
 .hq {
-  background: #fff;
+  background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   overflow: hidden;
@@ -646,8 +647,8 @@ h2 {
 .cta {
   position: relative;
   overflow: hidden;
-  background: var(--ink);
-  color: var(--paper);
+  background: var(--deep);
+  color: var(--ink);
   border-radius: 28px;
   padding: clamp(2.2rem, 5vw, 4rem);
 }
@@ -659,12 +660,12 @@ h2 {
   top: -40%;
   width: 60%;
   aspect-ratio: 1;
-  background: radial-gradient(circle, rgba(245, 197, 24, 0.35), transparent 65%);
+  background: radial-gradient(circle, rgba(245, 197, 24, 0.10), transparent 62%);
   pointer-events: none;
 }
 
-.cta h2 { color: var(--paper); position: relative; }
-.cta p { color: #cfc7bb; max-width: 46ch; position: relative; margin: 0; }
+.cta h2 { color: #fff; position: relative; }
+.cta p { color: #b7c7db; max-width: 46ch; position: relative; margin: 0; }
 
 .cta-actions {
   display: flex;
@@ -674,8 +675,8 @@ h2 {
   position: relative;
 }
 
-.cta .btn-ghost { color: var(--paper); border-color: rgba(255, 255, 255, 0.25); }
-.cta .btn-ghost:hover { border-color: var(--paper); }
+.cta .btn-ghost { color: #fff; border-color: rgba(255, 255, 255, 0.28); }
+.cta .btn-ghost:hover { border-color: #fff; }
 
 .contact-list {
   display: flex;
@@ -683,7 +684,7 @@ h2 {
   flex-wrap: wrap;
   margin-top: 2rem;
   font-size: 0.9rem;
-  color: #cfc7bb;
+  color: #b7c7db;
   position: relative;
 }
 
@@ -694,7 +695,7 @@ h2 {
 footer {
   margin-top: 4rem;
   padding: 2.6rem 0 2rem;
-  background: var(--ink);
+  background: var(--deep);
   color: #c7d3e2;
   font-size: 0.84rem;
 }
@@ -791,7 +792,7 @@ section[id] { scroll-margin-top: 88px; }
     align-items: stretch;
     gap: 0.15rem;
     padding: 1rem 1.25rem 1.4rem;
-    background: var(--paper);
+    background: var(--paper-2);
     border-bottom: 1px solid var(--line);
     box-shadow: 0 24px 40px -30px rgba(0, 0, 0, 0.5);
     transform: translateY(-12px);
