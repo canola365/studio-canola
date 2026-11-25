@@ -445,10 +445,12 @@ h2 {
 }
 
 .price small {
+  display: block;
   font-size: 0.75rem;
   font-weight: 500;
   color: var(--muted);
   letter-spacing: 0;
+  margin-bottom: 0.15rem;
 }
 
 .pack ul {

@@ -121,7 +121,7 @@ Comprima em https://squoosh.app antes de subir (~200–400 KB por foto).
 | WhatsApp | `5514991203420` |
 | Instagram | `instagram.com/studiocanola` |
 | E-mail | `studiocanola.contato@gmail.com` |
-| Preços | `R$ 350`, `R$ 500`, `R$ 650` |
+| Preços | `R$ 200`, `R$ 300`, `R$ 400` |
 | Cidade/região | `Botucatu` |
 | URL do site | `https://studiocanola.com.br/` (canonical e og:url) |
 
