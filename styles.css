@@ -148,6 +148,8 @@ a { color: inherit; }
 .btn-wa:hover { background: #1fbf5b; }
 .btn-sm { padding: 0.6rem 1.05rem; font-size: 0.88rem; }
 .btn-block { width: 100%; }
+  .btn-blue { background: #2a6e9e; color: #fff; border: 1.5px solid #2a6e9e; }
+  .btn-blue:hover { background: #236599; border-color: #1d5a8c; }
 
 /* ---------- Hero ---------- */
 .hero {
