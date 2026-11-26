@@ -244,8 +244,8 @@ h1 em {
 .sticker {
   position: absolute;
   z-index: 2;
-  left: 1rem;
-  top: 1.2rem;
+  left: 3rem;           /* aumentado de 1rem para 3rem */
+  top: 1.5rem;        /* levemente mais baixo */
   background: var(--canola);
   color: #0b1a2b;
   font-family: var(--font-display);
